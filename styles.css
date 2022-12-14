@@ -1,0 +1,58 @@
+img.my_photos,
+#left_photo,
+.middle_photos {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  margin-left: 5px;
+}
+
+.middle_photos {
+  border-radius: 50%;
+  border: 2px solid rebeccapurple;
+}
+
+#left_photo {
+  border-radius: 4px;
+}
+
+.parking {
+  width: 350px;
+}
+
+p.song {
+  font-size: 1.6em;
+}
+
+a:visited {
+  color: brown;
+}
+
+li:nth-child(2) {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+}
+
+li:nth-child(3) {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: "Hanken Grotesk", sans-serif;
+  color: darkcyan;
+}
+
+button {
+  color: aliceblue;
+  height: 70px;
+  width: 200px;
+  background-color: blue;
+  padding: 8px;
+  margin: 0 auto;
+  display: block;
+}
+button:hover {
+  cursor: pointer;
+  background-color: darkblue;
+}
