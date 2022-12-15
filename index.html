@@ -18,7 +18,14 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
+    <header>
+      A bit about me...
+      <a href="">Places I love</a>
+      <a href="">Contact Me</a>
+    </header>
+
     <h1>Matar Jacob</h1>
     <h2>
       I'm 25 years old from Tel Aviv <br />
@@ -28,16 +35,23 @@
 
     <!-- Song -->
 
-    <p class="song">
-      Hey, and I <span>know</span> we try <br />
-      Days, they go by <br />
-      Until we get old <br />
-      There's water in the flowers,let's grow <br />
-      People, they lie <br />
-      But hey, so do I <br />
-      Until it gets old <br />
-      There's water in the flowers, let's grow
-    </p>
+    <div class="song-section">
+      <div class="song-sign-one" style="font-size: 2.5em">"</div>
+      <div id="song-lyrics-div">
+        <p id="song-lyrics">
+          Hey, and I know we try <br />
+          Days, they go by <br />
+          Until we get old <br />
+          There's water in the flowers,let's grow <br />
+          People, they lie <br />
+          But hey, so do I <br />
+          Until it gets old <br />
+          There's water in the flowers, let's grow
+        </p>
+      </div>
+      <div class="song-sign-two">"</div>
+    </div>
+
     <section>
       <!-- Images -->
 
@@ -48,7 +62,7 @@
 
       <!-- Fav foods-->
 
-      <h2>I like...</h2>
+      <h2 style="font-family: Arial, Helvetica, sans-serif">I like...</h2>
       <ul>
         <li>Sushi</li>
         <li>Hummus</li>
@@ -84,6 +98,13 @@
     </table>
     <img class="parking" src="Assets/IMG_3331.jpeg" alt="" />
     <br />
-    <button>Click to see more</button>
+    <div style="text-align: center">
+      <button style="margin-bottom: 60px">Click to see more</button>
+    </div>
+
+    <footer>
+      <p style="margin-top: 5px">Matar Jacob</p>
+      <p style="margin-top: 5px">December 15th, 2022</p>
+    </footer>
   </body>
 </html>
