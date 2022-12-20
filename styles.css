@@ -129,21 +129,22 @@ header {
   text-align: center;
 }
 
-header > a {
+header > li {
   font-size: 0.7em;
   position: absolute;
+  display: inline;
+  color: brown;
+  background-color: beige;
+  border-radius: 7%;
+  padding: 3px;
 }
 
-header > a:nth-child(1) {
-  font-size: 0.7em;
-  position: absolute;
+header > li:nth-child(1) {
   right: 30px;
   bottom: 5px;
 }
 
-header > a:nth-child(2) {
-  font-size: 0.7em;
-  position: absolute;
+header > li:nth-child(2) {
   right: 180px;
   bottom: 5px;
 }
