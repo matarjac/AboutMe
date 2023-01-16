@@ -1,5 +1,6 @@
 * {
   margin: 0px;
+  box-sizing: border-box;
 }
 body {
   font-family: "Hanken Grotesk", sans-serif;
@@ -22,12 +23,12 @@ img {
   height: 300px;
   width: 300px;
   object-fit: cover;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 .top {
   position: absolute;
   animation-fill-mode: forwards;
-  transition: 0.5s;
+  transition: 1s;
 }
 .fade {
   opacity: 0;
@@ -142,10 +143,19 @@ h1 {
 }
 
 #gallery {
-  display: flex;
+  width: 42%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 32% 32% 32%;
+  grid-row-gap: 2%;
+  grid-column-gap: 2%;
+}
+/* #gallery {
+  display: grid;
   justify-content: center;
   gap: 60px;
-}
+} */
 
 .desc-span {
   font-size: 16px;
@@ -153,9 +163,13 @@ h1 {
   text-align: center;
 }
 
-.image-desc-pair {
+/* .image-desc-pair {
   display: flex;
   flex-direction: column;
+} */
+
+.image-desc-pair {
+  width: fit-content;
 }
 
 .main-body {
@@ -171,4 +185,16 @@ h3 {
 ul {
   list-style: none;
   font-size: 30px;
+}
+
+footer {
+  position: sticky;
+  bottom: 0px;
+  background-color: bisque;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-span {
+  margin-right: 20px;
 }
